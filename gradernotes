@@ -1,8 +1,0 @@
-I wrote this code myself...with the help from professor Carroll (for specificiation explanation), the man page (for manuals), the Gnu Debugger) and several links for reference purposes, this tends not to be an exhaust list:
- - Define boolean in C: https://stackoverflow.com/questions/1921539/using-boolean-values-in-c
- - For list of exit status: https://unix.stackexchange.com/questions/110348/how-do-i-get-the-list-of-exit-codes-and-or-return-codes-and-meaning-for-a-comm
-I believe everything works perfectly under most conditions, even though the autograder takes point off for "unknown" reasons when it comes to print error message???
-The documentation style is from what I learned from Professor Michele Rousseau(UCI)
-Also grab the next word upon seeing "<" or ">" or "<<" to process redirection, though the "hereis" is a bit more special than the other two
-If there's no commands either or both sides of a pipeline, like a REAL shell, an error message will show up
-For every system call (except system() ) being used, there are always a return value check to see if that call is success
