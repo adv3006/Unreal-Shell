@@ -13,7 +13,7 @@
 typedef int bool;							// Pre-defined data type since C doesn't have one
 #define true 1
 #define false 0
-#define N 2									// More than two of the same flag occurs 
+#define N 2									// More than two of the same flag occurs
 
 // GLOBAL VARIABLES DECLARATION 
 bool backslashCheck = false;				// Look if the previous character is '\'

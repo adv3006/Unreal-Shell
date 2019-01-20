@@ -26,7 +26,7 @@ int getword(char *w) {
     char *streamPtr = w;                             // For (indirectly) return single word from memory
     symbol initialCheck = none;                      // Check if '$' appears at the beginning of a word 
     //char *homePath = getenv("HOME");
-	symbol middleCheck = none;						 // Check if the special character appears in the middle of a word 
+	symbol middleCheck = none;						 // Check if the special character appears in the middle of a word
 	int checkTilde = 0;
 
 	while ( ( iochar = getchar() ) != EOF ) {

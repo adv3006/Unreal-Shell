@@ -13,7 +13,7 @@ int getword(char *w);
 * It returns -255 if end-of-file is encountered;
 * otherwise, it [usually] returns the number of characters in the word [but
 * note the exceptions listed in the details below]
-*
+* 
 * INPUT: a pointer to the beginning of a character string [a character array]
 * OUTPUT: the number of characters in the word (or the negative of that number)
 * SIDE EFFECTS: bytes beginning at address w will be overwritten.
