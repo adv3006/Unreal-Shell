@@ -4,7 +4,7 @@
  * CLASS 	   : CS 570 
  * SECTION     : TTh 1230-1345 
  * DUE DATE    : 10/10/18
- * INSTRUCTOR  : John Carroll 
+ * INSTRUCTOR  : John Carroll
  ************************************************************************/
 
 

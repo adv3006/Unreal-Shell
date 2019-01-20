@@ -4,7 +4,7 @@ compiler: gcc
 script: 
   - cd ${TRAVIS_BUILD_DIR}
   - make clean; make
-  - cflow p2.c getword.c
+after_success:  
   - egrep -n '#define|STORAGE' p2.h p2.c
   - egrep -n 'remove\(|unlink\(' p2.c
   - egrep -n 'setenv|getenv|environ' p2.c
@@ -12,6 +12,6 @@ script:
   - egrep -n 'wait|while' p2.c
   - egrep -n 'fork|fflush' p2.c
   - egrep -n 'execvp|exit|dup2|open|CHK|perror' p2.c
-  - grep -n parse( p2.c
   - grep -n system p2.c
   - make splint
+  - cat gradernotes
